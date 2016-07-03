@@ -5,6 +5,6 @@ echo "Current dir: `pwd`"
 git clone https://github.com/ogranada/Sweet .SweetGit
 cd .SweetGit
 ./config.sh
-cd ..
+cd ~
 rm -Rf .Sweetgit
 
