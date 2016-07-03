@@ -7,9 +7,9 @@ if [ -d ".SweetGit" ]; then
 fi
 git clone https://github.com/ogranada/Sweet .SweetGit
 cd .SweetGit
-echo "Configure vim..."
+echo "Configuring vim..."
 ./config.sh
-echo "Done..."
+echo "Configuration finished..."
 cd ~
 rm -Rf .Sweetgit
 
