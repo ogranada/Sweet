@@ -6,12 +6,7 @@ Develop happy with your VIM.
 Download the sourcecode and run install.sh 
 
 ```bash
-git clone https://github.com/ogranada/Sweet .SweetGit
-cd .SweetGit
-./install.sh
-cd ..
-rm -Rf .Sweetgit
-
+bash -c "`wget -q -O - https://raw.githubusercontent.com/ogranada/Sweet/master/install.sh`"
 ```
 
 # Used packages
